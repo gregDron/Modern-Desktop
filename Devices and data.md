@@ -38,5 +38,32 @@ Unmount the image and /commit to save the wim file. ( dism /unmount-image /mount
 
 dism /image:C:\mount /get-drivers ( show any 3rd party drivers added 
  
- 
+## Printer Driver Note **
+- If a driver is in driver store , use add-printerdriver cmdlet
+- If not , use the Add-WindowsDriver cmdlet 
+** Can also "inject" a driver into the driver store using PNPUTIL.
+** Within Device manager , printer section. If you drill into a printer object , in the Events tab , you can double check which driver file a particular driver is using within the driver store. C:\windows\system32\driverstore\filerepository\foldername
+
+## Preinstall drivers for different "bitness" (PRINTBRM.EXE ) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
