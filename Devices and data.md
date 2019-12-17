@@ -36,7 +36,7 @@ Unmount the image and /commit to save the wim file. ( dism /unmount-image /mount
 
 ## Check 3rd party driver
 
-dism /image:C:\mount /get-drivers ( show any 3rd party drivers added 
+dism /image:C:\mount /get-drivers ( show any 3rd party drivers added ) 
  
 ## Printer Driver Note **
 - If a driver is in driver store , use add-printerdriver cmdlet
